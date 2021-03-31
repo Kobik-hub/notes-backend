@@ -1,4 +1,4 @@
 {
   "jwtPrivateKey": "jwt",
-  "db": "mongodb+srv://cluster0.kxbql.mongodb.net/myFirstDatabase"
+  "db": "mongodb+srv://admin-kobi:k9412989@cluster0.kxbql.mongodb.net/notes?retryWrites=true&w=majority"
 }
