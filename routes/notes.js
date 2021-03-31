@@ -3,6 +3,7 @@ const { User } = require("../db/userDB");
 const router = express.Router();
 const auth = require("../middleware/auth");
 const datAndTime = require("date-and-time");
+const Joi = require("joi");
 
 //get the notes list
 router.get("/", auth, async (req, res) => {
