@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const config = require("config");
-const Joi = require("joi");
+const Joi = require("jowi");
 
 function auth(req, res, next) {
   const token = req.header("x-auth-token");
