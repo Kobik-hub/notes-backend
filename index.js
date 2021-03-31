@@ -15,9 +15,8 @@ if (!config.get("jwtPrivateKey")) {
   console.error("FATAL ERROR: jwtPrivateKey is not defined ");
   process.exit(1);
 }
-
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost/playground")
+  .connect(config.get("db"))
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("Connection failed…"));
 

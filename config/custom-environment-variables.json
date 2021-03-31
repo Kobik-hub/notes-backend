@@ -1,3 +1,4 @@
 {
-  "jwtPrivateKey": "note_app_jwtPrivateKey"
+  "jwtPrivateKey": "note_app_jwtPrivateKey",
+  "db": "dburl"
 }
